@@ -1,0 +1,123 @@
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  color: #ffaa3b;
+  transition: all 0.5s;
+}
+
+.text-red {
+  color: red;
+}
+
+.error-message {
+  color: #ee00ff;
+}
+
+.text-green {
+  color: #22ea22;
+}
+
+.input-danger {
+  border: 2px red;
+}
+
+/** App */
+
+.App {
+  width: 100%;
+  height: calc(100vh - 0px);
+  background-color: #00000f;
+  position: relative;
+}
+
+.GameCreation {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.Participant-Input {
+  color: white;
+  padding: 3px;
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px;
+}
+
+.Nav {
+  width: 100%;
+  display: flex;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Nav-Container {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  padding: 10px;
+  padding-left: 80px;
+}
+
+.Moves {
+  display: flex;
+  color: white;
+}
+
+.GameC-Container {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.btn {
+  color: white;
+  border-radius: 12px;
+  background-color: #180000;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #3a0000;
+}
+
+.btn:focus {
+  color: #ffaa3b;
+}
+
+.Card-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.Card-Container {
+  background-color: #180000;
+  border: 0px;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.Moves-Container {
+  color: white;
+  margin-top: 15%;
+  margin-left: 40%;
+}
